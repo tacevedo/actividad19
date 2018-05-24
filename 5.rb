@@ -34,3 +34,6 @@ conejo = Conejo.new('Bugs Bunny')
 puts conejo.saludar
 puts conejo.dieta
 puts Herviboro::D
+
+#Pregunta: ¿Por qué es mejor solución la implementación de Mixin que mediante Herencia de Herencia?
+#porque podrian chocar o sobreescribirse metodos que se hereeda, y con mixins se puede incorporar solo las secciones de codigo qe neecsito
